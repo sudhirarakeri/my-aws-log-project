@@ -47,7 +47,7 @@ Resources:
   MyRealBucket:
     Type: AWS::S3::Bucket
 
-  ApplicationResourceGroup:
+  ApplicationResourceGroup: # is this neccessary?
     Type: AWS::ResourceGroups::Group
     Properties:
       Name:
