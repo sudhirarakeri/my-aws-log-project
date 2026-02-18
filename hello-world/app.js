@@ -14,6 +14,7 @@ const rdsConfig = {
 };
 
 exports.handler = async (event) => {
+    console.log("Inside function..")
     // 1. Add a check to see if 'Records' exists
     if (!event.Records || event.Records.length === 0) {
         console.error("No Records found in the event!");
